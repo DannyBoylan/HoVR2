@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: f007a0d7a798b0848a8ccacd17abab9b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Vault_Large
+    100004: Vault_Large_Bend
+    100006: Vault_Large_LExit
+    100008: Vault_Large_RExit
+    100010: Vault_Large_Split
+    100012: Vault_Medium
+    100014: Vault_Medium_Bend
+    100016: Vault_Medium_LExit
+    100018: Vault_Medium_RExit
+    100020: Vault_Medium_Split
+    100022: Vault_MtoL
+    100024: Vault_Small
+    100026: Vault_Small_Bend
+    100028: Vault_Small_LExit
+    100030: Vault_Small_RExit
+    100032: Vault_Small_Split
+    100034: Vault_StoM
+    400000: //RootNode
+    400002: Vault_Large
+    400004: Vault_Large_Bend
+    400006: Vault_Large_LExit
+    400008: Vault_Large_RExit
+    400010: Vault_Large_Split
+    400012: Vault_Medium
+    400014: Vault_Medium_Bend
+    400016: Vault_Medium_LExit
+    400018: Vault_Medium_RExit
+    400020: Vault_Medium_Split
+    400022: Vault_MtoL
+    400024: Vault_Small
+    400026: Vault_Small_Bend
+    400028: Vault_Small_LExit
+    400030: Vault_Small_RExit
+    400032: Vault_Small_Split
+    400034: Vault_StoM
+    2100000: No Name
+    2300000: Vault_Large
+    2300002: Vault_Large_Bend
+    2300004: Vault_Large_LExit
+    2300006: Vault_Large_RExit
+    2300008: Vault_Large_Split
+    2300010: Vault_Medium
+    2300012: Vault_Medium_Bend
+    2300014: Vault_Medium_LExit
+    2300016: Vault_Medium_RExit
+    2300018: Vault_Medium_Split
+    2300020: Vault_MtoL
+    2300022: Vault_Small
+    2300024: Vault_Small_Bend
+    2300026: Vault_Small_LExit
+    2300028: Vault_Small_RExit
+    2300030: Vault_Small_Split
+    2300032: Vault_StoM
+    3300000: Vault_Large
+    3300002: Vault_Large_Bend
+    3300004: Vault_Large_LExit
+    3300006: Vault_Large_RExit
+    3300008: Vault_Large_Split
+    3300010: Vault_Medium
+    3300012: Vault_Medium_Bend
+    3300014: Vault_Medium_LExit
+    3300016: Vault_Medium_RExit
+    3300018: Vault_Medium_Split
+    3300020: Vault_MtoL
+    3300022: Vault_Small
+    3300024: Vault_Small_Bend
+    3300026: Vault_Small_LExit
+    3300028: Vault_Small_RExit
+    3300030: Vault_Small_Split
+    3300032: Vault_StoM
+    4300000: Vault_Small
+    4300002: Vault_Medium
+    4300004: Vault_Large
+    4300006: Vault_Medium_Bend
+    4300008: Vault_Large_Bend
+    4300010: Vault_Small_Bend
+    4300012: Vault_Small_LExit
+    4300014: Vault_Small_Split
+    4300016: Vault_Medium_Split
+    4300018: Vault_Small_RExit
+    4300020: Vault_Medium_LExit
+    4300022: Vault_Medium_RExit
+    4300024: Vault_Large_RExit
+    4300026: Vault_Large_Split
+    4300028: Vault_Large_LExit
+    4300030: Vault_StoM
+    4300032: Vault_MtoL
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
