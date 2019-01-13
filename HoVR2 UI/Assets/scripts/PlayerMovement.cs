@@ -343,7 +343,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (debugTestSpeed == true)
         {
-            if (speed < 150)
+            if (speed < 50)
                 speed+=0.5f;
         }
 
