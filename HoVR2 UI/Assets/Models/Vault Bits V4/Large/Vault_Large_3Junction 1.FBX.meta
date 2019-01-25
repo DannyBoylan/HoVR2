@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a2d998e6e80aa8d4fb308e77a29a43c4
+guid: 6d6611d534ccfdd4181ef74692e80ad6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Vault_Medium_3Junction
+    4300000: Vault_Large_3Junction
   externalObjects: {}
   materials:
     importMaterials: 1
