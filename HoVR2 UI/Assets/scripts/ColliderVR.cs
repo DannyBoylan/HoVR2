@@ -4,7 +4,7 @@ using UnityEngine;
 
 // www.youtube.com/watch?v=m0fjrQkaES4 //
 
-public class Collider : MonoBehaviour {
+public class ColliderVR : MonoBehaviour {
     public List<GameObject> EnemyList;
     public bool debug = false; // Debug mode
     public bool collided = false; // Store if collision has occurred
