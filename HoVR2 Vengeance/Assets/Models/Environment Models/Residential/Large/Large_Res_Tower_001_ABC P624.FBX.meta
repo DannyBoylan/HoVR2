@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 6d4862a31838349409358a2b64ae6afc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bridge Low 001
+    100002: Bridge Low 002
+    100004: Bridge Low 003
+    100006: Bridge Low 004
+    100008: Bridge Top 001
+    100010: Bridge Top 002
+    100012: Bridge Top 003
+    100014: Bridge Top 004
+    100016: House Dome Low
+    100018: Inner Low Ring
+    100020: Inner Top Ring
+    100022: //RootNode
+    100024: Outer Low Ring
+    100026: Outer Top Ring
+    100028: Tower Low 001
+    100030: Tower Low 002
+    100032: Tower Low 003
+    100034: Tower Low 004
+    100036: Tower Top 001
+    100038: Tower Top 002
+    100040: Tower Top 003
+    100042: Tower Top 04
+    400000: Bridge Low 001
+    400002: Bridge Low 002
+    400004: Bridge Low 003
+    400006: Bridge Low 004
+    400008: Bridge Top 001
+    400010: Bridge Top 002
+    400012: Bridge Top 003
+    400014: Bridge Top 004
+    400016: House Dome Low
+    400018: Inner Low Ring
+    400020: Inner Top Ring
+    400022: //RootNode
+    400024: Outer Low Ring
+    400026: Outer Top Ring
+    400028: Tower Low 001
+    400030: Tower Low 002
+    400032: Tower Low 003
+    400034: Tower Low 004
+    400036: Tower Top 001
+    400038: Tower Top 002
+    400040: Tower Top 003
+    400042: Tower Top 04
+    2100000: 01 - Default
+    2300000: Bridge Low 001
+    2300002: Bridge Low 002
+    2300004: Bridge Low 003
+    2300006: Bridge Low 004
+    2300008: Bridge Top 001
+    2300010: Bridge Top 002
+    2300012: Bridge Top 003
+    2300014: Bridge Top 004
+    2300016: House Dome Low
+    2300018: Inner Low Ring
+    2300020: Inner Top Ring
+    2300022: //RootNode
+    2300024: Outer Low Ring
+    2300026: Outer Top Ring
+    2300028: Tower Low 001
+    2300030: Tower Low 002
+    2300032: Tower Low 003
+    2300034: Tower Low 004
+    2300036: Tower Top 001
+    2300038: Tower Top 002
+    2300040: Tower Top 003
+    2300042: Tower Top 04
+    3300000: Bridge Low 001
+    3300002: Bridge Low 002
+    3300004: Bridge Low 003
+    3300006: Bridge Low 004
+    3300008: Bridge Top 001
+    3300010: Bridge Top 002
+    3300012: Bridge Top 003
+    3300014: Bridge Top 004
+    3300016: House Dome Low
+    3300018: Inner Low Ring
+    3300020: Inner Top Ring
+    3300022: //RootNode
+    3300024: Outer Low Ring
+    3300026: Outer Top Ring
+    3300028: Tower Low 001
+    3300030: Tower Low 002
+    3300032: Tower Low 003
+    3300034: Tower Low 004
+    3300036: Tower Top 001
+    3300038: Tower Top 002
+    3300040: Tower Top 003
+    3300042: Tower Top 04
+    4300000: Housing Dome Top
+    4300002: House Dome Low
+    4300004: Bridge Top 004
+    4300006: Bridge Top 003
+    4300008: Bridge Top 002
+    4300010: Bridge Top 001
+    4300012: Bridge Low 004
+    4300014: Bridge Low 003
+    4300016: Bridge Low 002
+    4300018: Bridge Low 001
+    4300020: Inner Low Ring
+    4300022: Inner Top Ring
+    4300024: Outer Low Ring
+    4300026: Outer Top Ring
+    4300028: Tower Low 001
+    4300030: Tower Low 002
+    4300032: Tower Low 003
+    4300034: Tower Low 004
+    4300036: Tower Top 001
+    4300038: Tower Top 002
+    4300040: Tower Top 003
+    4300042: Tower Top 04
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
