@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 79425b6a914234346901d9e03a50194d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back Turbine
+    100002: Back Wing Bottom L
+    100004: Back Wing Bottom L001
+    100006: Back Wing Bottom L002
+    100008: Back Wing Bottom L003
+    100010: Bike dashboard
+    100012: body panel L
+    100014: body panel L001
+    100016: Box004
+    100018: Break lever L
+    100020: Break lever L001
+    100022: break sphere L
+    100024: break sphere L001
+    100026: Dash and windscreen
+    100028: Dash Support Back L
+    100030: Dash Support Back L001
+    100032: Dash Support Front L
+    100034: Dash Support Front L001
+    100036: Front Engine
+    100038: Front Jet L
+    100040: Front Jet L001
+    100042: Handle Bars
+    100044: Jet Pannel L005
+    100046: Jet Pannel L006
+    100048: Jet Pannel L007
+    100050: Jet Pannel L008
+    100052: Jet Pannel L1
+    100054: Jet Pannel L2
+    100056: Jet Pannel L3
+    100058: Jet Pannel L4
+    100060: Jet Pivot L
+    100062: Jet Pivot L001
+    100064: Large jet pivot L005
+    100066: Large jet pivot L006
+    100068: Large jet pivot L007
+    100070: Large jet pivot L008
+    100072: Large jet pivot L009
+    100074: Large jet pivot L2
+    100076: Large jet pivot L3
+    100078: Large jet pivot L4
+    100080: Large metal panel L005
+    100082: Large metal panel L006
+    100084: Large metal panel L007
+    100086: Large metal panel L008
+    100088: Large metal panel L1
+    100090: Large metal panel L2
+    100092: Large metal panel L3
+    100094: Large metal panel L4
+    100096: Medium metal panel L005
+    100098: Medium metal panel L006
+    100100: Medium metal panel L007
+    100102: Medium metal panel L008
+    100104: Medium metal panel L1
+    100106: Medium metal panel L2
+    100108: Medium metal panel L3
+    100110: Medium metal panel L4
+    100112: Medium pivot L005
+    100114: Medium pivot L006
+    100116: Medium pivot L007
+    100118: Medium pivot L008
+    100120: Medium pivot L1
+    100122: Medium pivot L2
+    100124: Medium pivot L3
+    100126: Medium pivot L4
+    100128: Pedal base L
+    100130: Pedal base L001
+    100132: Pedel trigger L
+    100134: Pedel trigger L001
+    100136: //RootNode
+    100138: Seat
+    100140: Side Pannel L
+    100142: Side Pannel L001
+    100144: Small pivot L005
+    100146: Small pivot L006
+    100148: Small pivot L007
+    100150: Small pivot L008
+    100152: Small pivot L1
+    100154: Small pivot L2
+    100156: Small pivot L3
+    100158: Small pivot L4
+    100160: Torus001
+    100162: Torus002
+    100164: Torus004
+    100166: Torus006
+    100168: Torus007
+    100170: Wire cap back R
+    100172: Wire cap back R001
+    100174: Wire cap front L
+    100176: Wire cap front L001
+    100178: Wire R
+    100180: Wire R001
+    400000: Back Turbine
+    400002: Back Wing Bottom L
+    400004: Back Wing Bottom L001
+    400006: Back Wing Bottom L002
+    400008: Back Wing Bottom L003
+    400010: Bike dashboard
+    400012: body panel L
+    400014: body panel L001
+    400016: Box004
+    400018: Break lever L
+    400020: Break lever L001
+    400022: break sphere L
+    400024: break sphere L001
+    400026: Dash and windscreen
+    400028: Dash Support Back L
+    400030: Dash Support Back L001
+    400032: Dash Support Front L
+    400034: Dash Support Front L001
+    400036: Front Engine
+    400038: Front Jet L
+    400040: Front Jet L001
+    400042: Handle Bars
+    400044: Jet Pannel L005
+    400046: Jet Pannel L006
+    400048: Jet Pannel L007
+    400050: Jet Pannel L008
+    400052: Jet Pannel L1
+    400054: Jet Pannel L2
+    400056: Jet Pannel L3
+    400058: Jet Pannel L4
+    400060: Jet Pivot L
+    400062: Jet Pivot L001
+    400064: Large jet pivot L005
+    400066: Large jet pivot L006
+    400068: Large jet pivot L007
+    400070: Large jet pivot L008
+    400072: Large jet pivot L009
+    400074: Large jet pivot L2
+    400076: Large jet pivot L3
+    400078: Large jet pivot L4
+    400080: Large metal panel L005
+    400082: Large metal panel L006
+    400084: Large metal panel L007
+    400086: Large metal panel L008
+    400088: Large metal panel L1
+    400090: Large metal panel L2
+    400092: Large metal panel L3
+    400094: Large metal panel L4
+    400096: Medium metal panel L005
+    400098: Medium metal panel L006
+    400100: Medium metal panel L007
+    400102: Medium metal panel L008
+    400104: Medium metal panel L1
+    400106: Medium metal panel L2
+    400108: Medium metal panel L3
+    400110: Medium metal panel L4
+    400112: Medium pivot L005
+    400114: Medium pivot L006
+    400116: Medium pivot L007
+    400118: Medium pivot L008
+    400120: Medium pivot L1
+    400122: Medium pivot L2
+    400124: Medium pivot L3
+    400126: Medium pivot L4
+    400128: Pedal base L
+    400130: Pedal base L001
+    400132: Pedel trigger L
+    400134: Pedel trigger L001
+    400136: //RootNode
+    400138: Seat
+    400140: Side Pannel L
+    400142: Side Pannel L001
+    400144: Small pivot L005
+    400146: Small pivot L006
+    400148: Small pivot L007
+    400150: Small pivot L008
+    400152: Small pivot L1
+    400154: Small pivot L2
+    400156: Small pivot L3
+    400158: Small pivot L4
+    400160: Torus001
+    400162: Torus002
+    400164: Torus004
+    400166: Torus006
+    400168: Torus007
+    400170: Wire cap back R
+    400172: Wire cap back R001
+    400174: Wire cap front L
+    400176: Wire cap front L001
+    400178: Wire R
+    400180: Wire R001
+    2100000: No Name
+    2300000: Back Turbine
+    2300002: Back Wing Bottom L
+    2300004: Back Wing Bottom L001
+    2300006: Back Wing Bottom L002
+    2300008: Back Wing Bottom L003
+    2300010: Bike dashboard
+    2300012: body panel L
+    2300014: body panel L001
+    2300016: Box004
+    2300018: Break lever L
+    2300020: Break lever L001
+    2300022: break sphere L
+    2300024: break sphere L001
+    2300026: Dash and windscreen
+    2300028: Dash Support Back L
+    2300030: Dash Support Back L001
+    2300032: Dash Support Front L
+    2300034: Dash Support Front L001
+    2300036: Front Engine
+    2300038: Front Jet L
+    2300040: Front Jet L001
+    2300042: Handle Bars
+    2300044: Jet Pannel L005
+    2300046: Jet Pannel L006
+    2300048: Jet Pannel L007
+    2300050: Jet Pannel L008
+    2300052: Jet Pannel L1
+    2300054: Jet Pannel L2
+    2300056: Jet Pannel L3
+    2300058: Jet Pannel L4
+    2300060: Jet Pivot L
+    2300062: Jet Pivot L001
+    2300064: Large jet pivot L005
+    2300066: Large jet pivot L006
+    2300068: Large jet pivot L007
+    2300070: Large jet pivot L008
+    2300072: Large jet pivot L009
+    2300074: Large jet pivot L2
+    2300076: Large jet pivot L3
+    2300078: Large jet pivot L4
+    2300080: Large metal panel L005
+    2300082: Large metal panel L006
+    2300084: Large metal panel L007
+    2300086: Large metal panel L008
+    2300088: Large metal panel L1
+    2300090: Large metal panel L2
+    2300092: Large metal panel L3
+    2300094: Large metal panel L4
+    2300096: Medium metal panel L005
+    2300098: Medium metal panel L006
+    2300100: Medium metal panel L007
+    2300102: Medium metal panel L008
+    2300104: Medium metal panel L1
+    2300106: Medium metal panel L2
+    2300108: Medium metal panel L3
+    2300110: Medium metal panel L4
+    2300112: Medium pivot L005
+    2300114: Medium pivot L006
+    2300116: Medium pivot L007
+    2300118: Medium pivot L008
+    2300120: Medium pivot L1
+    2300122: Medium pivot L2
+    2300124: Medium pivot L3
+    2300126: Medium pivot L4
+    2300128: Pedal base L
+    2300130: Pedal base L001
+    2300132: Pedel trigger L
+    2300134: Pedel trigger L001
+    2300136: Seat
+    2300138: Side Pannel L
+    2300140: Side Pannel L001
+    2300142: Small pivot L005
+    2300144: Small pivot L006
+    2300146: Small pivot L007
+    2300148: Small pivot L008
+    2300150: Small pivot L1
+    2300152: Small pivot L2
+    2300154: Small pivot L3
+    2300156: Small pivot L4
+    2300158: Torus001
+    2300160: Torus002
+    2300162: Torus004
+    2300164: Torus006
+    2300166: Torus007
+    2300168: Wire cap back R
+    2300170: Wire cap back R001
+    2300172: Wire cap front L
+    2300174: Wire cap front L001
+    2300176: Wire R
+    2300178: Wire R001
+    3300000: Back Turbine
+    3300002: Back Wing Bottom L
+    3300004: Back Wing Bottom L001
+    3300006: Back Wing Bottom L002
+    3300008: Back Wing Bottom L003
+    3300010: Bike dashboard
+    3300012: body panel L
+    3300014: body panel L001
+    3300016: Box004
+    3300018: Break lever L
+    3300020: Break lever L001
+    3300022: break sphere L
+    3300024: break sphere L001
+    3300026: Dash and windscreen
+    3300028: Dash Support Back L
+    3300030: Dash Support Back L001
+    3300032: Dash Support Front L
+    3300034: Dash Support Front L001
+    3300036: Front Engine
+    3300038: Front Jet L
+    3300040: Front Jet L001
+    3300042: Handle Bars
+    3300044: Jet Pannel L005
+    3300046: Jet Pannel L006
+    3300048: Jet Pannel L007
+    3300050: Jet Pannel L008
+    3300052: Jet Pannel L1
+    3300054: Jet Pannel L2
+    3300056: Jet Pannel L3
+    3300058: Jet Pannel L4
+    3300060: Jet Pivot L
+    3300062: Jet Pivot L001
+    3300064: Large jet pivot L005
+    3300066: Large jet pivot L006
+    3300068: Large jet pivot L007
+    3300070: Large jet pivot L008
+    3300072: Large jet pivot L009
+    3300074: Large jet pivot L2
+    3300076: Large jet pivot L3
+    3300078: Large jet pivot L4
+    3300080: Large metal panel L005
+    3300082: Large metal panel L006
+    3300084: Large metal panel L007
+    3300086: Large metal panel L008
+    3300088: Large metal panel L1
+    3300090: Large metal panel L2
+    3300092: Large metal panel L3
+    3300094: Large metal panel L4
+    3300096: Medium metal panel L005
+    3300098: Medium metal panel L006
+    3300100: Medium metal panel L007
+    3300102: Medium metal panel L008
+    3300104: Medium metal panel L1
+    3300106: Medium metal panel L2
+    3300108: Medium metal panel L3
+    3300110: Medium metal panel L4
+    3300112: Medium pivot L005
+    3300114: Medium pivot L006
+    3300116: Medium pivot L007
+    3300118: Medium pivot L008
+    3300120: Medium pivot L1
+    3300122: Medium pivot L2
+    3300124: Medium pivot L3
+    3300126: Medium pivot L4
+    3300128: Pedal base L
+    3300130: Pedal base L001
+    3300132: Pedel trigger L
+    3300134: Pedel trigger L001
+    3300136: Seat
+    3300138: Side Pannel L
+    3300140: Side Pannel L001
+    3300142: Small pivot L005
+    3300144: Small pivot L006
+    3300146: Small pivot L007
+    3300148: Small pivot L008
+    3300150: Small pivot L1
+    3300152: Small pivot L2
+    3300154: Small pivot L3
+    3300156: Small pivot L4
+    3300158: Torus001
+    3300160: Torus002
+    3300162: Torus004
+    3300164: Torus006
+    3300166: Torus007
+    3300168: Wire cap back R
+    3300170: Wire cap back R001
+    3300172: Wire cap front L
+    3300174: Wire cap front L001
+    3300176: Wire R
+    3300178: Wire R001
+    4300000: Handle Bars
+    4300002: Bike dashboard
+    4300004: Seat
+    4300006: Box004
+    4300008: Break lever L
+    4300010: break sphere L
+    4300012: Pedal base L
+    4300014: Pedel trigger L
+    4300016: Dash and windscreen
+    4300018: Front Engine
+    4300020: Front Jet L
+    4300022: Large jet pivot L3
+    4300024: Large metal panel L3
+    4300026: Medium pivot L3
+    4300028: Medium metal panel L3
+    4300030: Small pivot L3
+    4300032: Jet Pannel L3
+    4300034: Large jet pivot L2
+    4300036: Large metal panel L2
+    4300038: Medium pivot L2
+    4300040: Medium metal panel L2
+    4300042: Small pivot L2
+    4300044: Jet Pannel L2
+    4300046: Large jet pivot L4
+    4300048: Large metal panel L4
+    4300050: Medium pivot L4
+    4300052: Medium metal panel L4
+    4300054: Small pivot L4
+    4300056: Jet Pannel L4
+    4300058: Large jet pivot L005
+    4300060: Large metal panel L1
+    4300062: Medium pivot L1
+    4300064: Medium metal panel L1
+    4300066: Small pivot L1
+    4300068: Jet Pannel L1
+    4300070: Jet Pivot L
+    4300072: Dash Support Front L
+    4300074: Back Turbine
+    4300076: Back Wing Bottom L
+    4300078: Side Pannel L
+    4300080: Dash Support Back L
+    4300082: Wire cap front L
+    4300084: Torus001
+    4300086: body panel L
+    4300088: Torus002
+    4300090: Torus004
+    4300092: Torus006
+    4300094: Wire cap back R
+    4300096: Wire R
+    4300098: body panel L001
+    4300100: Side Pannel L001
+    4300102: Wire cap back R001
+    4300104: Wire R001
+    4300106: Dash Support Front L001
+    4300108: Dash Support Back L001
+    4300110: Wire cap front L001
+    4300112: Jet Pivot L001
+    4300114: Torus007
+    4300116: Back Wing Bottom L001
+    4300118: Back Wing Bottom L002
+    4300120: Back Wing Bottom L003
+    4300122: break sphere L001
+    4300124: Break lever L001
+    4300126: Pedal base L001
+    4300128: Pedel trigger L001
+    4300130: Front Jet L001
+    4300132: Large jet pivot L006
+    4300134: Large metal panel L005
+    4300136: Medium pivot L005
+    4300138: Medium metal panel L005
+    4300140: Small pivot L005
+    4300142: Jet Pannel L005
+    4300144: Large jet pivot L007
+    4300146: Large metal panel L006
+    4300148: Medium pivot L006
+    4300150: Medium metal panel L006
+    4300152: Small pivot L006
+    4300154: Jet Pannel L006
+    4300156: Large jet pivot L008
+    4300158: Large metal panel L007
+    4300160: Medium pivot L007
+    4300162: Medium metal panel L007
+    4300164: Small pivot L007
+    4300166: Jet Pannel L007
+    4300168: Large jet pivot L009
+    4300170: Large metal panel L008
+    4300172: Medium pivot L008
+    4300174: Medium metal panel L008
+    4300176: Small pivot L008
+    4300178: Jet Pannel L008
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

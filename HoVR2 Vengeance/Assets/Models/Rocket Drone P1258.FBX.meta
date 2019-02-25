@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: be17ecf164e55c64d94966564ce07506
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bottom_left_wing
+    100002: Bottom_right_wing
+    100004: Missile 001
+    100006: Missile 002
+    100008: Missile 003
+    100010: Missile 004
+    100012: Missile 005
+    100014: Missile 006
+    100016: Missile 007
+    100018: Missile 008
+    100020: Missile 009
+    100022: Missile 010
+    100024: Missile 011
+    100026: Missile 012
+    100028: //RootNode
+    100030: Top_left_wing
+    100032: Top_Right_wing
+    400000: Bottom_left_wing
+    400002: Bottom_right_wing
+    400004: Missile 001
+    400006: Missile 002
+    400008: Missile 003
+    400010: Missile 004
+    400012: Missile 005
+    400014: Missile 006
+    400016: Missile 007
+    400018: Missile 008
+    400020: Missile 009
+    400022: Missile 010
+    400024: Missile 011
+    400026: Missile 012
+    400028: //RootNode
+    400030: Top_left_wing
+    400032: Top_Right_wing
+    2100000: 01 - Default
+    2300000: Bottom_left_wing
+    2300002: Bottom_right_wing
+    2300004: Missile 001
+    2300006: Missile 002
+    2300008: Missile 003
+    2300010: Missile 004
+    2300012: Missile 005
+    2300014: Missile 006
+    2300016: Missile 007
+    2300018: Missile 008
+    2300020: Missile 009
+    2300022: Missile 010
+    2300024: Missile 011
+    2300026: Missile 012
+    2300028: //RootNode
+    2300030: Top_left_wing
+    2300032: Top_Right_wing
+    3300000: Bottom_left_wing
+    3300002: Bottom_right_wing
+    3300004: Missile 001
+    3300006: Missile 002
+    3300008: Missile 003
+    3300010: Missile 004
+    3300012: Missile 005
+    3300014: Missile 006
+    3300016: Missile 007
+    3300018: Missile 008
+    3300020: Missile 009
+    3300022: Missile 010
+    3300024: Missile 011
+    3300026: Missile 012
+    3300028: //RootNode
+    3300030: Top_left_wing
+    3300032: Top_Right_wing
+    4300000: Rocket drone
+    4300002: Bottom_left_wing
+    4300004: Bottom_right_wing
+    4300006: Missile 001
+    4300008: Missile 002
+    4300010: Missile 003
+    4300012: Missile 004
+    4300014: Missile 005
+    4300016: Missile 006
+    4300018: Missile 007
+    4300020: Missile 008
+    4300022: Missile 009
+    4300024: Missile 010
+    4300026: Missile 011
+    4300028: Missile 012
+    4300030: Top_left_wing
+    4300032: Top_Right_wing
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
