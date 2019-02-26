@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c23a8dce68bb7d248888c0e91a635888
+guid: 8cb5a4332307f5d4c9979eec8f38dbe0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -9,6 +9,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cylinder001
+    4300002: Med Com 001
   externalObjects: {}
   materials:
     importMaterials: 1
