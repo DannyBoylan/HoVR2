@@ -89,8 +89,7 @@ Shader "RIGPR/Hologram"
 				
 				_speed = _speed * 100;
 				_scale = _scale * 100;
-				// apply fog
-				UNITY_APPLY_FOG(i.fogCoord, col);
+
 
 				//Make the scanlines
 				fixed4 col = _colour * tex2D(_MainTex, i.uv) * max(0, cos(i.objVertex.y * _scale + _Time.x * _speed) + _bias);
@@ -98,7 +97,8 @@ Shader "RIGPR/Hologram"
 				//add bias for making dots
 				col *= 1 - max(0, cos(i.objVertex.x * _scale + _Time.x * _speed) + _dotBias);
 				col *= 1 - max(0, cos(i.objVertex.z * _scale + _Time.x * _speed) + _dotBias);
-
+				// apply fog
+				UNITY_APPLY_FOG(i.fogCoord, col);
 
 				//Make the alpha affected by the texture and speed
 				col.a *= _colour.a * flicker;

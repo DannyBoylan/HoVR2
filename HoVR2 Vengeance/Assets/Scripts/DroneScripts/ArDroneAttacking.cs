@@ -20,66 +20,44 @@ public class ArDroneAttacking : MonoBehaviour {
 
     public float CoolDownTimer = 5.0f;
     public float MaxCoolDownTimer = 5.0f;
-    public int ReloadTimer;  // want reload timer to be 2.5x cool down timer
+    public float ReloadTimer;  // want reload timer to be 2.5x cool down timer
+
+    public GameObject impact;
+    public GameObject thisObject;
+    // this is the new dely system
+    private bool allowfire = true;
 
     void Start ()
     {
 
         Emitter = this.gameObject;
+        thisObject = this.gameObject;
     }
 
-    void Attack()
+
+    IEnumerator Reload()
     {
-        if (Ammo > 0 & CoolDownTimer == MaxCoolDownTimer)
-        {
-            Ammo -= 1;
-            CoolDownTimer = 0.0f;
+        allowfire = false;
 
-            //creates a ray called hit
-            RaycastHit hit;
-                // this actually shoots out the ray. first variable is where the ray shoots from.  2nd is the direction (forward). 3nd gathers info and puts it in hit, 4th is the range.
-                if (Physics.Raycast(Emitter.transform.position, Emitter.transform.forward, out hit, ARDroneRange))
-                {
-                    Debug.Log(hit.transform.name); // this displays the name of what is hit
+        
 
-                    Enemy target = hit.transform.GetComponent<Enemy>();
+        // this waits for x seconds before the code runs again, uses corourines.
+        yield return new WaitForSeconds(ReloadTimer);
 
-                    if (target != null)
-                    {
-                        //This sends the damage variable of the drone
-                        target.TakeDamage(ARDroneDamage);
+        allowfire = true;
 
-                    }
-
-
-
-                }
-
-        }
-        else if (Ammo <= 0)
-        {
-            CoolDownTimer = 0.0f;
-            Ammo = 5;
-
-        }
     }
+
+
+
+
+
+
+
+
 
     // Update is called once per frame
     void Update () {
-        Debug.DrawRay(transform.position, transform.forward * 100f, Color.red);
-
-        // Increment cool down timer
-        if (CoolDownTimer < MaxCoolDownTimer)
-        {
-            CoolDownTimer += 1 * Time.deltaTime;
-
-        }
-        else if(CoolDownTimer > MaxCoolDownTimer)
-        {
-            CoolDownTimer = MaxCoolDownTimer;
-
-
-        }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -89,12 +67,48 @@ public class ArDroneAttacking : MonoBehaviour {
         {
             fireButton = false;
         }
-        // putting shoot on fire button just for testing
-        if (fireButton)
-        {
 
-            Attack();
+        //creates a ray called hit
+        RaycastHit hit;
+        Debug.DrawRay(transform.position, transform.forward * ARDroneRange, Color.red);
+
+        // this actually shoots out the ray. first variable is where the ray shoots from.  2nd is the direction (forward). 3nd gathers info and puts it in hit, 4th is the range.
+        if (Physics.Raycast(Emitter.transform.position, Emitter.transform.forward, out hit, ARDroneRange))
+        {
+            //Debug.Log(hit.transform.name); // this displays the name of what is hit
+
+
+
+            // putting shoot on fire button just for testing
+            if (fireButton && allowfire)
+            {
+                //Debug.Log(hit.point);
+                // this creates the impact at the end of the ray (the hit.point)
+
+                GameObject spark = Instantiate(impact, hit.point, transform.rotation);                
+                spark.GetComponent<TransformStorage>().gun = thisObject;
+
+
+
+                Enemy target = hit.transform.GetComponent<Enemy>();
+                if (target != null)
+                {
+                    //This sends the damage variable of the drone
+                    target.TakeDamage(ARDroneDamage);
+
+                }
+                // this calls the function SetEndPoint which sets the EndPoint of the lazer... maybe add weapon dely here could be more efficent coding
+
+                StartCoroutine(Reload());
+
+
+            }
+
+
+
 
         }
+
+
     }
 }

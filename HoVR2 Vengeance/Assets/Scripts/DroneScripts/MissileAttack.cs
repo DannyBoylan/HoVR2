@@ -4,7 +4,7 @@
 
 public class MissileAttack : MonoBehaviour
 {
-    public GameObject Bullet_Emitter, Bullet, Explosion;
+    public GameObject Bullet_Emitter, Bullet;
 
     void missileFire()
     {
@@ -23,8 +23,7 @@ public class MissileAttack : MonoBehaviour
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
 
             //Basic Clean Up, set the Bullets to self destruct after 10 Seconds, I am being VERY generous here, normally 3 seconds is plenty.
-            Destroy(Temporary_Bullet_Handler, 5.0f);
-            Instantiate(Explosion, transform.position, transform.rotation);
+
         }
     }
 

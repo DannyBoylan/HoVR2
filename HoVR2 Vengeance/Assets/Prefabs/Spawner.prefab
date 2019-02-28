@@ -101,10 +101,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 825622937964144428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e55ab26607085aa4a885c51acee2384b, type: 3}
+  m_Script: {fileID: 11500000, guid: 92db5fbc95eeddd4dafe646076d53ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  WhatToSpawn: {fileID: 7654634226051492689, guid: f32f0a859185b4f498052a702cee971e,
+  PlayerObject: {fileID: 0}
+  objectToSpawn: {fileID: 7654634226051492689, guid: f32f0a859185b4f498052a702cee971e,
     type: 3}
-  range: 1.56
+  numberToSpawn: 5
+  spawnLimit: 5
+  proximity: 57
+  Delay: 0
+  DelayCounter: 0
+  destroyAfterSpawn: 1

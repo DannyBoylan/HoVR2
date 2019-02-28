@@ -6,7 +6,7 @@
 		_MainTex("Texture", 2D) = "white" {}
 		_angle("Texture Rotation", Range(-5.0,  5.0)) = 0.0
 		_colour("Scanline Colour", Color) = (0, 1, 0, 1)
-		_scale("Scanline Scale", Range(1.0, 5.0)) = 1
+		_scale("Scanline Scale", Range(0.1, 5.0)) = 1
 		_speed("Scanline Speed", Range(-1, 1)) = 0.1
 		_bias("Scanline Bias", Range(-1,-0.6)) = -0.6
 		_dotBias("Dot Bias", Range(-1,1)) = -1
@@ -85,8 +85,7 @@
 	_speed = _speed * 100;
 	_scale = _scale * 100;
 
-	// apply fog
-	UNITY_APPLY_FOG(i.fogCoord, col);
+	
 
 	//Make the scanlines
 	fixed4 col = _colour * tex2D(_MainTex, i.uv) * max(0, cos(i.objVertex.y * _scale + _Time.x * _speed) + _bias);
@@ -96,7 +95,8 @@
 	col *= 1 - max(0, cos(i.objVertex.y * _scale + _Time.x * _speed) + _dotBias);
 	col *= 1 - max(0, cos(i.objVertex.x * _scale + _Time.x * _speed) + _dotBias);
 	col *= 1 - max(0, cos(i.objVertex.z * _scale + _Time.x * _speed) + _dotBias);
-
+	// apply fog
+	UNITY_APPLY_FOG(i.fogCoord, col);
 
 	//Make the alpha affected by the texture and speed
 	col.a *= _colour.a * flicker;

@@ -13,19 +13,12 @@ public class Arduino : MonoBehaviour {
 
         if (speed > 0)
         {
-            this.GetComponent<ArduinoComunicator>().setRumbleSpeed((int)speed);
-
-            this.GetComponent<ArduinoComunicator>().setFan1Speed((int)speed);
-
-            this.GetComponent<ArduinoComunicator>().setFan2Speed((int)speed);
+            this.GetComponent<ArduinoComunicator>().setSpeed(speed);
         }
         else if (speed <= 0)
         {
-            this.GetComponent<ArduinoComunicator>().setRumbleSpeed(0);
-
-            this.GetComponent<ArduinoComunicator>().setFan1Speed(0);
-
-            this.GetComponent<ArduinoComunicator>().setFan2Speed(0);
+            this.GetComponent<ArduinoComunicator>().setArduinoOff();
         }
+
     }
 }
