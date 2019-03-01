@@ -66,9 +66,8 @@ public class PlayerMovement : MonoBehaviour
     bool directionSet = false;
     bool directionFix = false;
 
-    float distance;
-    [Range(1.0f, 100.0f)]
-    public float radius = 5;
+    float distance;    
+    public float radius = 90;
 
 
     void Start()
@@ -240,17 +239,7 @@ public class PlayerMovement : MonoBehaviour
                 yoffset.x = 0;
                 yoffset.z = 0;
             }
-            /*
-            else if (trackedObject.transform.localEulerAngles.x < (initialXAngle - pitchThreshhold))
-            {
-                pitchAngle += (trackedObject.transform.localEulerAngles.x - (initialXAngle - pitchThreshhold));
-                Vector3 a = up.transform.position - transform.position;
-                Math.NormVector(a);
-                yoffset += ((a * movementAdjuster) / 100) * pitchAngle;
-                yoffset.x = 0;
-                yoffset.z = 0;
-            }
-            */
+
             else pitchAngle = 0;
             offset = xzoffset + yoffset;
         }else
@@ -303,32 +292,6 @@ public class PlayerMovement : MonoBehaviour
         if (maxSpeed < 0) { maxSpeed = 0; }
         if (acceleration < 0) { acceleration = 0; }
 
-
-
-        //transform.position += (directionNormalzized * speed) * Time.fixedDeltaTime;
-        /*if (speed > 0) 
-        {
-
-            transform.position += new Vector3(((leanAngle * leanAdjustment) * Time.fixedDeltaTime), 0, 0);
-            transform.position += new Vector3(0, ((pitchAngle * pitchAdjustment) * Time.fixedDeltaTime), 0);         
-        }
-        leanAngle = 0;
-        pitchAngle = 0;
-        
-        distance = this.GetComponent<SplineWalkerPlayer>().distance;
-        if (distance >= radius)
-        {
-
-            offset = GetComponent<SplineWalkerPlayer>().moveToCentre(offset);
-
-            xzoffset = offset;
-            yoffset = offset;
-            yoffset.x = 0;
-            yoffset.z = 0;
-            xzoffset.y = 0;
-
-        }
-        */
     }
     float GetDistance(Vector3 A,Vector3 B)
     {
@@ -337,6 +300,35 @@ public class PlayerMovement : MonoBehaviour
         D.y = D.y * D.y;
         D.z = D.z * D.z;
         return Mathf.Sqrt(D.x + D.y + D.z);
+    }
+    public void SetRadius(int x)
+    {
+        switch (x)
+        {
+            case 0://HugLine
+                radius = 10;
+                break;
+            case 1://tiny
+                radius = 45;
+                break;
+            case 2://small
+                radius = 90;
+                break;
+            case 3://medium
+                radius = 180;
+                break;
+            case 4://large
+                radius = 360;
+                break;
+            default://if no number, you dont it wrong and will default to medium
+                break;     
+        }
+    }
+    void OnDrawGizmosSelected()
+    {
+        // draws a wirefrane sphear to show the range of the spawner
+        Gizmos.color = Color.white;
+        Gizmos.DrawWireSphere(transform.position, radius);
     }
 }
 

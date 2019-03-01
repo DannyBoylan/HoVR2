@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class RotateObjectScript : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Basic script to rotate an object.
 
     // Update is called once per frame
     void Update()

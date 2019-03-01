@@ -64,6 +64,10 @@ public class ArduinoComunicator : MonoBehaviour
 
     public void setSpeed(float speed)
     {
+
+        //this is the code that checks the speed of the bike, and sends a letter over to the arduino
+        //it will then set a char to the last letter it sent so it wont send values more than once only
+        //when the speed has changed enough for a new value
         if      (speed > 90)    { if (isoff != 'j') { sp.Write("j"); isoff = 'j'; } }
         else if (speed > 80)    { if (isoff != 'i') { sp.Write("i"); isoff = 'i'; } }
         else if (speed > 70)    { if (isoff != 'h') { sp.Write("h"); isoff = 'h'; } }

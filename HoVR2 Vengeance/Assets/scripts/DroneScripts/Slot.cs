@@ -8,15 +8,11 @@ public class Slot : MonoBehaviour
     public bool isActive = false;
     [SerializeField]
     bool spawned = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
+        //this will run if the slot controller sets it to active. if it is active, it will then check to see if
+        //it has spawned a drone, if not, it will spawn a drone and set the drones to this slot.
         if (isActive)
         {
             if (!spawned)
@@ -30,6 +26,7 @@ public class Slot : MonoBehaviour
     }
     public void DroneDestroyed()
     {
+        //resets the slot to accept a new drone if the drone on it has been destroyed.
         isActive = false;
         spawned = false;   
     }

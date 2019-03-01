@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OffsetTexture : MonoBehaviour
 {
+    //this script is a texture offset, which allows a texture to move around on the x axis
     Renderer rend;
     [Range(-10.0f,10.0f)]
     public float scrollSpeed = -2.0f;

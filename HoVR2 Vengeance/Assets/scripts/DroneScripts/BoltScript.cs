@@ -5,6 +5,11 @@ using UnityEngine;
 public class BoltScript : MonoBehaviour {
     Renderer rend;
     float scrollSpeed = -2.0f;
+
+    //this is a simple script that when a line has been drawn to the enemy
+    // it scrolls a tecture along that line to simuate a laser bolt
+    //moving towards the enemy
+
     // Use this for initialization
     void Start () {
         rend = GetComponent<Renderer>();

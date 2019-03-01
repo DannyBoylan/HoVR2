@@ -12,12 +12,15 @@ public class DroneLife : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //basic sets the max health to the health set in the unity editor.
         maxHealth = health;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (health > maxHealth) health = maxHealth;
+        //death script, if it runs out of health, then make it explode, remove it from the slot if it has one, and then destroy the drone object
         if (health <= 0)
         {
             Instantiate(explosion, transform.position, transform.rotation);
@@ -26,6 +29,8 @@ public class DroneLife : MonoBehaviour
                     }
             Destroy(this.gameObject);
         }
+
+        //allows health to be depleted by using a bool for debug
         if (debugDeath) health -= 1;
     }
 }

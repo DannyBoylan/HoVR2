@@ -9,17 +9,20 @@ public class PickupScript : MonoBehaviour
     public bool MissileDrone = false;
     bool collided = false;
 
+    //Collider for the pickup object
     public void OnTriggerEnter(UnityEngine.Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
             collided = true;
         }
-
     }
+
+
+
     private void Update()
     {
-
+        //this checks what the pickup shoould add and adds it to the correct slot controller to add the drone to a slot if one is available
         if (collided)
         {
             GameObject other = GameObject.Find("playerController");

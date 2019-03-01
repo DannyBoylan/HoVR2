@@ -72,7 +72,7 @@ public class ProximityDetection : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         // draws a wirefrane sphear to show the range of the spawner
-        Gizmos.color = Color.white;
-        Gizmos.DrawWireSphere(transform.position, rangeInKM);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, rangeInKM*500);
     }
 }
