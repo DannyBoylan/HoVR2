@@ -15,7 +15,10 @@ public class DroneLife : MonoBehaviour
         //basic sets the max health to the health set in the unity editor.
         maxHealth = health;
     }
-
+    public void takeDamage(float damage)
+    {
+        health -= (int)damage;
+    }
     // Update is called once per frame
     void Update()
     {

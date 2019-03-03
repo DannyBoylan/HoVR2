@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4803258587618996910}
   - component: {fileID: 4803258587618996909}
   - component: {fileID: 4803258587618996906}
+  - component: {fileID: 4658821045120632545}
   m_Layer: 0
   m_Name: AR Drone1
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +114,22 @@ MonoBehaviour:
   ReloadTimer: 0.1
   impact: {fileID: 1403934882830882, guid: 4cef61dbf39c95544b613c5d4584ba72, type: 3}
   thisObject: {fileID: 4803258587618996896}
+--- !u!54 &4658821045120632545
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803258587618996896}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4803258588475397272
 GameObject:
   m_ObjectHideFlags: 0

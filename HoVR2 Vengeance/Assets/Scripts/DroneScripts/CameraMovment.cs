@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraMovment : MonoBehaviour
 {
 
-
+    GameObject aim;
 
     public float speedH = 2.0f;
     public float speedV = 2.0f;
@@ -18,17 +18,20 @@ public class CameraMovment : MonoBehaviour
 
     // Use this for initialization
     void Start () {
-		
+        aim = GameObject.Find("playerController").GetComponent<GameObjectStorage>().aim;
+        aim.transform.position += new Vector3(0, 0, -100);
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
+        transform.LookAt(aim.transform.position);
 
+        /*
         yaw += speedH * Input.GetAxis("Mouse X");
         pitch -= speedV * Input.GetAxis("Mouse Y");
 
         transform.eulerAngles = new Vector3(pitch, yaw, 0f); /// switch pitch and 0f if the code makes it roll not pitch. worked different on camera for some reason.. idunno
-
+        */
     }
 }

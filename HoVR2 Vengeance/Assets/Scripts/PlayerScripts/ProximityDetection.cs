@@ -30,6 +30,8 @@ public class ProximityDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         //We make sure this is a high number as we will be calculating it lower to get the lowest number(Closest Distance) 
         float distance = 100000.0f;
 
