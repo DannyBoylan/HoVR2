@@ -8,9 +8,12 @@ public class Slot : MonoBehaviour
     public bool isActive = false;
     [SerializeField]
     bool spawned = false;
+
     // Update is called once per frame
+
     void Update()
     {
+  
         //this will run if the slot controller sets it to active. if it is active, it will then check to see if
         //it has spawned a drone, if not, it will spawn a drone and set the drones to this slot.
         if (isActive)

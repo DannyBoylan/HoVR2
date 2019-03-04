@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4452803303358898629}
   - component: {fileID: 4452803303358898630}
   - component: {fileID: 4452803303358898631}
+  - component: {fileID: 3313347702692738622}
   - component: {fileID: 6551631543661107340}
   m_Layer: 0
   m_Name: MissileDrone
@@ -128,6 +129,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet_Emitter: {fileID: 4452803304530144654}
   Bullet: {fileID: 1171049794024206, guid: 0b6fbb9a636de3f43beee8c667a21969, type: 3}
+--- !u!114 &3313347702692738622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4452803303358898632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a870ee6061220e14b942e4cca0abc1f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 1
+  speed: 0.5
+  position: 0
 --- !u!54 &6551631543661107340
 Rigidbody:
   m_ObjectHideFlags: 0
