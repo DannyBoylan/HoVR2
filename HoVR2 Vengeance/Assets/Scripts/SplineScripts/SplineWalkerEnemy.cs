@@ -37,7 +37,7 @@ public class SplineWalkerEnemy : MonoBehaviour {
     }
     
     private void Update () {
-        if (active == true)
+        if (active == true && spline != null)
         {
             if (goingForward)
             {

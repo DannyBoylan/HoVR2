@@ -40,7 +40,6 @@ public class DeathZone : MonoBehaviour
                 rend.material.color = new Color(+0, +0, +0, 0);
             }
         }
-
         //this is what happens when the timer runs out. 0 should be replaced with the scene wanted
         //such as a game over screen, or just back to the title. these can be set in the unity
         //build settings.
