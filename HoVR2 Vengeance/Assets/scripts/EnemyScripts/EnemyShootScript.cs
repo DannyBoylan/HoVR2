@@ -63,8 +63,11 @@ public class EnemyShootScript : MonoBehaviour
             Debug.Log("entered range");
             Debug.Log(hit.transform.name);
             DroneLife target = hit.transform.GetComponent<DroneLife>();
-            //Debug.Log(Player.GetComponent<ProximityDetection>().rangeInKM / rangeDivider);
-
+            PlayerStatistics target2 = null;
+            if (target == null)
+            {
+                target2 = hit.transform.GetComponent<PlayerStatistics>();
+            }
 
 
             GameObject spark = Instantiate(impact, hit.point, transform.rotation);
@@ -80,8 +83,14 @@ public class EnemyShootScript : MonoBehaviour
                 target.takeDamage(damage);
 
             }
+            else if (target2 != null)
+            {
+                target2.takeDamage(damage);
+            }
 
-            StartCoroutine(Reload());
+
+
+           StartCoroutine(Reload());
 
 
 

@@ -5,7 +5,8 @@
 public class MissileAttack : MonoBehaviour
 {
     public GameObject Bullet_Emitter, Bullet;
-
+    private bool allowfire = true;
+    public float ReloadTimer = 2;
     void missileFire()
     {
         if (Input.GetKeyDown("space"))
@@ -23,17 +24,29 @@ public class MissileAttack : MonoBehaviour
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
 
             //Basic Clean Up, set the Bullets to self destruct after 10 Seconds, I am being VERY generous here, normally 3 seconds is plenty.
-
+            StartCoroutine(Reload());
         }
     }
 
-    void start()
+    IEnumerator Reload()
     {
+        allowfire = false;
+
+
+
+        // this waits for x seconds before the code runs again, uses corourines.
+        yield return new WaitForSeconds(ReloadTimer);
+
+        allowfire = true;
+
     }
 
     void Update()
     {
-    missileFire();
+        if (allowfire)
+        {
+            missileFire();
+        }
     }
 
 }

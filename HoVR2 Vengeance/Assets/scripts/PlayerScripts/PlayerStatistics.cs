@@ -21,6 +21,10 @@ public class PlayerStatistics : MonoBehaviour
         if (health > maxHealth) health = maxHealth;
         else if (health <= 0) Die();
     }
+    public void takeDamage(float damage)
+    {
+        health -= (int)damage;
+    }
     void Die()
     {
         Instantiate(explosion, transform.position, transform.rotation);
