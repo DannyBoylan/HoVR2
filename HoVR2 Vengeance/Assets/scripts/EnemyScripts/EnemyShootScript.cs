@@ -53,15 +53,15 @@ public class EnemyShootScript : MonoBehaviour
     void Shoot()
     {
 
-        Debug.Log("start shoot script");
+
         //creates a ray called hit
         RaycastHit hit;
         // this actually shoots out the ray. first variable is where the ray shoots from.  2nd is the direction (forward). 3nd gathers info and puts it in hit, 4th is the range.
-        Debug.Log(range);
+
         if (Physics.Raycast(Emitter.transform.position, Emitter.transform.forward, out hit))
         {
-            Debug.Log("entered range");
-            Debug.Log(hit.transform.name);
+            
+            
             DroneLife target = hit.transform.GetComponent<DroneLife>();
             PlayerStatistics target2 = null;
             if (target == null)
@@ -78,7 +78,7 @@ public class EnemyShootScript : MonoBehaviour
 
             if (target != null) // need to put something here that is less than range 
             {
-                Debug.Log("damageing target");
+                
                 //This sends the damage variable of the drone
                 target.takeDamage(damage);
 

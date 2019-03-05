@@ -42,12 +42,13 @@ public class MakeCollider : MonoBehaviour {
 
             if (activateEnemies)
             {
-
-                for (int i = 0; i < EnemyList.Count; i++)
+                if (EnemyList.Count > 0)
                 {
-                    EnemyList[i].GetComponent<SplineWalkerEnemy>().active = true;
+                    for (int i = 0; i < EnemyList.Count; i++)
+                    {
+                        EnemyList[i].GetComponent<SplineWalkerEnemy>().active = true;
+                    }
                 }
-                
             }
 
             Destroy(this.gameObject);
