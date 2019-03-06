@@ -9,9 +9,15 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Object001
+    4300002: Slum 014
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 567fb263c38b84c4cb612bdf567d83ef, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -62,7 +68,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.0254
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

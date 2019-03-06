@@ -9,7 +9,12 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Industrial Walkway B
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 84ff3d3888aaccd42bab8f9233a018aa, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

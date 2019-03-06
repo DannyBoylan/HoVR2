@@ -9,7 +9,12 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Medium_Industrial_Ridged_tower
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: a5de0484ca836ba43b94f99a5f899264, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

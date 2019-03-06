@@ -10,7 +10,12 @@ ModelImporter:
     3300000: //RootNode
     4300000: Small_Arrow_001
     4300002: Small_Arrow_002
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: b9cf8f9260c7bdd4d8f3435e6e6e2d3b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -69,7 +69,13 @@ ModelImporter:
     4300018: LampPost005
     4300020: LampPost006
     4300022: LampPost007
-  externalObjects: {}
+    4300024: LampPost008
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c36fe78e0452e284b82a31ad872f4fa9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

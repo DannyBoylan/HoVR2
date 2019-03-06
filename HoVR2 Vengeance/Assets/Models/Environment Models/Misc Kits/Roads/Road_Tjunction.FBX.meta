@@ -18,17 +18,25 @@ ModelImporter:
     2300002: LampPost005
     2300004: Road_Tjunction
     2300006: Road
+    2300008: //RootNode
     3300000: LampPost004
     3300002: LampPost005
     3300004: Road_Tjunction
     3300006: Road
+    3300008: //RootNode
     4300000: Road_Tjunction
     4300002: LampPost004
     4300004: LampPost005
     4300006: Road
+    4300008: LampPost009
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: eaa7184bc19982f42a728d2bb81df5a9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

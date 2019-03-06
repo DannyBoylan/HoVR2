@@ -9,7 +9,12 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Vault_Small_Bend_UpLeft
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 16d69da984557ec4c9ead8de981aa48c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
