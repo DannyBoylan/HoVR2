@@ -12,7 +12,17 @@ ModelImporter:
     4300000: Med Fact Tower 002
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 483914e802fdffd4bb08507a1a0160cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 4b71d461221387741bafbf121fa66789, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

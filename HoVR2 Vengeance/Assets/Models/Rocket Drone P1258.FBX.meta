@@ -89,7 +89,12 @@ ModelImporter:
     4300028: Missile 012
     4300030: Top_left_wing
     4300032: Top_Right_wing
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: adc4b0d500b19da40aa22f6ddc0631e6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -11,7 +11,12 @@ ModelImporter:
     4300000: Point defence drone
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 24c716cdc9df6f5488cca0a91c2890a5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

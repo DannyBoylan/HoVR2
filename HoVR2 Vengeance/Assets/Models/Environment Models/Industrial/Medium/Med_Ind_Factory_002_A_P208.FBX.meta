@@ -11,7 +11,12 @@ ModelImporter:
     4300000: Med Factory 002
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: e9531bf074bd81b4281c2e96dd33c396, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

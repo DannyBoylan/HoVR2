@@ -14,7 +14,12 @@ ModelImporter:
     3300002: Tube003
     4300000: Cylinder002
     4300002: Tube003
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 45a3e3440a239ac4386a6a7737151081, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

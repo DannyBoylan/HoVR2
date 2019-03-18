@@ -6,12 +6,18 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: 08 - Default
+    2100002: 01 - Default
     2300000: //RootNode
     3300000: //RootNode
     4300000: Large Factory 003
     7400000: Take 001
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 808c43987b2c6684eb544a875293c27c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

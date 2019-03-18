@@ -276,6 +276,7 @@ ModelImporter:
     2300174: Wire cap front L001
     2300176: Wire R
     2300178: Wire R001
+    2300180: //RootNode
     3300000: Back Turbine
     3300002: Back Wing Bottom L
     3300004: Back Wing Bottom L001
@@ -366,6 +367,7 @@ ModelImporter:
     3300174: Wire cap front L001
     3300176: Wire R
     3300178: Wire R001
+    3300180: //RootNode
     4300000: Handle Bars
     4300002: Bike dashboard
     4300004: Seat
@@ -456,7 +458,12 @@ ModelImporter:
     4300174: Medium metal panel L008
     4300176: Small pivot L008
     4300178: Jet Pannel L008
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 54eaee08c0341314f83af5028cbe789f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

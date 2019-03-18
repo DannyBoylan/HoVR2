@@ -14,6 +14,7 @@ ModelImporter:
     400006: Top_Wing
     400008: //RootNode
     2100000: 01 - Default
+    2100002: 02 - Default
     2300000: Bottom_Wing
     2300002: Left_Wing
     2300004: Right_Wing
@@ -29,9 +30,15 @@ ModelImporter:
     4300004: Left_Wing
     4300006: Right_Wing
     4300008: Top_Wing
+    4300010: Right_Wing001
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 5e468843c267d7a4da49b6c1e3fd2411, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -82,7 +89,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.0254
+    previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

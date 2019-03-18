@@ -25,6 +25,7 @@ ModelImporter:
     100038: Tower Top 002
     100040: Tower Top 003
     100042: Tower Top 04
+    100044: Tower Top 004
     400000: Bridge Low 001
     400002: Bridge Low 002
     400004: Bridge Low 003
@@ -47,6 +48,7 @@ ModelImporter:
     400038: Tower Top 002
     400040: Tower Top 003
     400042: Tower Top 04
+    400044: Tower Top 004
     2100000: 01 - Default
     2300000: Bridge Low 001
     2300002: Bridge Low 002
@@ -70,6 +72,7 @@ ModelImporter:
     2300038: Tower Top 002
     2300040: Tower Top 003
     2300042: Tower Top 04
+    2300044: Tower Top 004
     3300000: Bridge Low 001
     3300002: Bridge Low 002
     3300004: Bridge Low 003
@@ -92,6 +95,7 @@ ModelImporter:
     3300038: Tower Top 002
     3300040: Tower Top 003
     3300042: Tower Top 04
+    3300044: Tower Top 004
     4300000: Housing Dome Top
     4300002: House Dome Low
     4300004: Bridge Top 004
@@ -114,9 +118,15 @@ ModelImporter:
     4300038: Tower Top 002
     4300040: Tower Top 003
     4300042: Tower Top 04
+    4300044: Tower Top 004
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: c484e7f613a2b2c408b4ff5292b2aac0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -167,7 +177,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.0254
+    previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
