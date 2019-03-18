@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33606805784403418}
   - component: {fileID: 23687520089325262}
   m_Layer: 0
-  m_Name: SmallestBulldog
+  m_Name: Small Bulldog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33702621704665396}
   - component: {fileID: 23452600759067750}
   m_Layer: 0
-  m_Name: LargestBulldog
+  m_Name: Giant Bulldog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
