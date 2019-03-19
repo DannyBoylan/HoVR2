@@ -11,7 +11,12 @@ ModelImporter:
     4300000: Small_Res_building_triangle_top
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: fceb8ec4e7ccfc34fa880551d4d43e5e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

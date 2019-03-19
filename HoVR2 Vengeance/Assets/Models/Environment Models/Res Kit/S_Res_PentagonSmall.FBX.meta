@@ -11,7 +11,12 @@ ModelImporter:
     4300000: Small_Res_Small_hexagon
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 167a3f7e6002dc241a9adfb212855a7c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

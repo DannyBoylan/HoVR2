@@ -11,7 +11,12 @@ ModelImporter:
     4300000: Bottom_Box_001
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: d70cc14f50cc919498812345a7d7dcd8, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

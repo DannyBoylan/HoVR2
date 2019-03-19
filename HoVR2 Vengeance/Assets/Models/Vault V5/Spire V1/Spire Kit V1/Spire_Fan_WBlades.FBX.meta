@@ -104,7 +104,12 @@ ModelImporter:
     4300034: Fan Blade 016
     4300036: Fan Blade 017
     4300038: Fan Blade 018
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 06d6998560f9ade4ba6d613c829e88b0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
